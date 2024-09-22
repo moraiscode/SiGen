@@ -48,6 +48,27 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
+    <!-- Custom CSS for hover effect -->
+    <style>
+        /* Quando o mouse passar sobre o card, adicione border-success, shadow e text-success */
+        .card:hover {
+            border: 1px solid #198754;
+            /* border-success */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            /* shadow */
+            /* color: #198754; */
+            /* text-success */
+        }
+
+        /* Ajustar a cor do título e do ícone também ao passar o mouse */
+        .card:hover .card-title,
+        .card:hover .card-text,
+        .card:hover .text-muted {
+            color: #198754;
+            /* text-success */
+        }
+    </style>
+
 </head>
 
 <body>
